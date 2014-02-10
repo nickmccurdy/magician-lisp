@@ -1,0 +1,7 @@
+language: common-lisp
+install:
+  - sudo apt-get install sbcl
+  - wget -q http://beta.quicklisp.org/quicklisp.lisp -O ~/quicklisp.lisp
+  - mkdir -p ~/quicklisp/local-projects/
+script:
+  - sbcl --load run-tests.lisp
