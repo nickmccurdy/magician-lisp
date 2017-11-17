@@ -1,3 +1,6 @@
+# Deprecated
+Use a more complete and well supported math system like [Octave](https://www.gnu.org/software/octave/), which is compatible with [MATLAB](https://www.mathworks.com/products/matlab.html).
+
 # Magician
 A suite of handy functions for doing calculations in Common Lisp.
 
